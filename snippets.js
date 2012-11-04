@@ -109,7 +109,7 @@ function count(test, array) {
 /**
  * Returns the composition of a list of functions,
  * where each function consumes the return value of
- * the function that follows. In math terms, composing
+ * the function that follows. For instance, composing
  * the functions f(), g(), and h() produces f(g(h())).
  * @return {Function} Returns a composed `Function`
  */
